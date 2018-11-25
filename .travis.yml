@@ -19,7 +19,7 @@ before_install:
 before_script:
   # Use actual Ansible Galaxy role name for the project directory.
   - cd ../
-  - mv ansible-role-$ROLE_NAME bassinator.$ROLE_NAME
+  - mv ansible-role-linux-desktop bassinator.$ROLE_NAME
   - cd bassinator.$ROLE_NAME
 
 script:
