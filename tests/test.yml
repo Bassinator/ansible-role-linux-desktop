@@ -2,6 +2,5 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - bassinator.linux_desktop
-      vars:
-        linux_desktop: 'mate'
+    - role: bassinator.linux_desktop
+      linux_desktop: 'mate'
