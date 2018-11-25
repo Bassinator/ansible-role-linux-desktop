@@ -3,3 +3,5 @@
   remote_user: root
   roles:
     - bassinator.linux_desktop
+      vars:
+        linux_desktop: 'mate'
